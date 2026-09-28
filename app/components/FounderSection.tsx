@@ -20,7 +20,7 @@ export default function FounderSection() {
               {/* Main Image Frame with glow and borders */}
               <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl border border-white/15 bg-neutral-900">
                 <Image
-                  src="https://www.betaavm.com.tr/wp-content/uploads/2025/10/baskan-sooon.png"
+                  src="/images/yusuf-ugur.png"
                   alt="Yusuf Uğur - Yönetim Kurulu Başkanı"
                   fill
                   className="object-cover object-top hover:scale-105 transition-transform duration-700"

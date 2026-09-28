@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src="https://www.betaavm.com.tr/wp-content/uploads/2020/04/betastores.png"
+                src="/images/betastores-logo.jpg"
                 alt="Beta Stores"
                 width={140}
                 height={80}

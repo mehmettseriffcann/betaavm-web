@@ -31,7 +31,7 @@ export default function Header() {
           <Link href="/" className="group flex items-center gap-3 relative">
             <div className="relative p-1.5 rounded-xl transition-transform duration-300 group-hover:scale-105">
               <Image
-                src="https://www.betaavm.com.tr/wp-content/uploads/2025/09/logooo-gigapixel-standard-v2-4x-1.png"
+                src="/images/logo.png"
                 alt="BetaAVM Logo"
                 width={170}
                 height={55}
