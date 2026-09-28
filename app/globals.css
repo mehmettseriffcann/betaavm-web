@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #840740;
+  --color-primary-light: #9e0e50;
+  --color-primary-dark: #1b0209;
+  --color-accent: #c9933e;
+  --color-accent-light: #e5b367;
+  --color-surface: #ffffff;
+  --color-surface-dim: #f8fafc;
+  --color-dark: #0f172a;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fafbfc;
+    color: #1e293b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #840740;
+    color: #ffffff;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .glass-card-dark {
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 25px rgba(201, 147, 62, 0.4);
+  }
+
+  .gradient-gold {
+    background: linear-gradient(135deg, #f7d486 0%, #c9933e 50%, #9a6d25 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-grid-pattern {
+    background-image: radial-gradient(rgba(132, 7, 64, 0.1) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+}
